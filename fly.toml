@@ -10,7 +10,7 @@ processes = []
   buildpacks = ["gcr.io/paketo-buildpacks/go"]
 
 [build.args]
-  BP_KEEP_FILES = "content/*:public/*"
+  BP_KEEP_FILES = "content/*:public/*:views/*"
 
 [env]
   PORT = "8088"
