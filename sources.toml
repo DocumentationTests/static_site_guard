@@ -1,0 +1,14 @@
+Title = "Source Repos"
+[sources]
+[sources.one]
+GitRepo = "https://github.com/sample_user/sample_repo_1.git"
+ProjectName = "Sample Repo 1"
+DocsDir = "docs"
+ProjectSlug = 'sample_repo_2'
+Branch = "master"
+[sources.event_bus]
+GitRepo = "https://github.com/sample_user/sample_repo_1.git"
+ProjectName = "Sample Repo 2"
+DocsDir = "docs"
+ProjectSlug = 'sample_repo_2'
+Branch = "master"

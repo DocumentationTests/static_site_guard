@@ -1,0 +1,14 @@
+.env
+.docker_build/
+bin/
+
+.history
+.vscode
+.idea
+
+.DS_Store
+
+# SQLite Database for sessions & utils
+static_site_guard.sqlite3
+
+content/public/
