@@ -87,7 +87,7 @@ func SessionHandler(ctx *fiber.Ctx, store *session.Store) error {
 		if ctx.Path() == "/login" || ctx.Path() == "/login/github" || ctx.Path() == "/not_authorized" || ctx.Path() == "/auth/callback/github" || ctx.Path() == "/logout" {
 			return ctx.Next()
 		} else {
-			return ctx.Redirect("/login")
+			return ctx.Redirect("/not_authorized")
 		}
 	}
 }
